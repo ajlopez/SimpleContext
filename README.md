@@ -1,6 +1,6 @@
 # SimpleContext
 
-Associate arbitrary data with a context (simple plain JavaScript object).
+Associate arbitrary data with a context (a simple plain JavaScript object).
 
 ## Installation
 
