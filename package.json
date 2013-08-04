@@ -1,0 +1,16 @@
+{ "name": "simplecontext"
+, "description": "SimpleContext interpreter in JavaScript"
+, "keywords": [ "prolog", "javascript", "interpreter" ]
+, "version": "0.0.1alpha"
+, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleContext.git" }
+, "main": "./lib/simplecontext.js"
+, "engines": { "node": ">= 0.6.0 && < 0.11.0" }
+, "scripts": {
+    "test": "node ./test.js"
+  }
+, "dependencies": {
+  }
+, "devDependencies": {
+  }
+}
