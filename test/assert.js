@@ -32,3 +32,12 @@ assert.ok(Array.isArray(result));
 assert.equal(result.length, 1);
 assert.equal(result[0], 'spam');
 
+// then retrieve with other order in context properties
+
+var result = space.retrieve({ category: 'Beverages', country: 'Japan' });
+assert.ok(result);
+assert.ok(Array.isArray(result));
+assert.equal(result.length, 1);
+assert.equal(result[0], 'spam');
+
+
