@@ -7,3 +7,7 @@ var simplecontext = require('..'),
 assert.ok(simplecontext.createContext);
 assert.equal(typeof simplecontext.createContext, 'function');
 
+// create context
+
+var context = simplecontext.createContext();
+assert.ok(context);
