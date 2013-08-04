@@ -2,12 +2,12 @@
 var simplecontext = require('..'),
     assert = require('assert');
     
-// createContext as function
+// createSpace as function
 
-assert.ok(simplecontext.createContext);
-assert.equal(typeof simplecontext.createContext, 'function');
+assert.ok(simplecontext.createSpace);
+assert.equal(typeof simplecontext.createSpace, 'function');
 
-// create context
+// create context space
 
-var context = simplecontext.createContext();
-assert.ok(context);
+var space = simplecontext.createSpace();
+assert.ok(space);
